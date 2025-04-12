@@ -1,29 +1,45 @@
 #include "curl/curl.h"
-#include <cstring>
+#include <stdio.h>
+#include <string>
 
-int downloadmpd(const char *url, const char *filename, const char*httperror){
-  CURL *curl;
-  FILE *mpd;
+class mpd{
+  private:
+  public:
+    const char *mpdfilename;
+    int downloadmpd(const char *url, const char *filename, std::string httperror);
+    bool deletempd();
+};
+
+size_t write_data(void *buffer, size_t size, size_t nmemb, void *file){
+  size_t written = fwrite(buffer, size, nmemb, (FILE *)file);
+  return written;
+}
+
+int mpd::downloadmpd(const char *url, const char *filename, std::string httperror){
+  mpdfilename = filename;
+  CURL *curl = curl_easy_init();
+  FILE *file;
   CURLcode res;
 
-  curl = curl_easy_init();
-  mpd = fopen(filename,"wb");
+  if(curl) {
+    curl_easy_setopt(curl, CURLOPT_URL, url);
+    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
+    curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 1L);
 
-  curl_easy_setopt(curl, CURLOPT_URL, url);
-  curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, NULL);
-  curl_easy_setopt(curl, CURLOPT_FAILONERROR, 1L);
-  curl_easy_setopt(curl, CURLOPT_WRITEDATA, mpd);
-
-  res = curl_easy_perform(curl);
-  curl_easy_cleanup(curl);
-  fclose(mpd);
-
-  if(res == CURLE_OK){
-    return 0;
-  }else{
+    file = fopen(mpdfilename, "wb");
+    if(file){
+      curl_easy_setopt(curl, CURLOPT_WRITEDATA, file);
+      res = curl_easy_perform(curl);
+      fclose(file);
+    }
     httperror = curl_easy_strerror(res);
-    return 1;
+    curl_easy_cleanup(curl);
   }
-
   
+  return (res==CURLE_OK) ? 0 : 1;
+  
+}
+
+bool mpd::deletempd(){
+  return remove(mpdfilename) == 0;
 }

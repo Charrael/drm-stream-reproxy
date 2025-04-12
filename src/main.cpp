@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../include/http/downloadmpd.hpp"
+//#include "../include/parsing/parsempd.hpp"
 #include "string"
 
 int main(){
@@ -9,11 +10,13 @@ int main(){
   std::cout << "url good" << std::endl;
   std::cin >> filename;
   std::cout << std::endl;
-  downloadmpd(url.c_str(), filename.c_str(), httperror.c_str());
-  
+  mpd testMpd;
+  testMpd.downloadmpd(url.c_str(), filename.c_str(), httperror);
   if(httperror.size() > 0){
     std::cout << httperror;
   }
+
+
   
   return 0;
 }
