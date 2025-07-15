@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.30.5)
+cmake_minimum_required(VERSION 3.31.6)
 project(drm-stream-reproxy)
 
 find_package(pugixml REQUIRED) 
