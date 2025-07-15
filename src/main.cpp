@@ -1,6 +1,9 @@
 #include <iostream>
+#include <thread>
+#include "include/streams/MediaManager.hpp"
 
 const std::string version = "0.0";
+
 int main(int argc, char *argv[])
 {
   std::string arg1 = argc > 1 ? std::string(argv[1]) : "";
@@ -28,6 +31,10 @@ int main(int argc, char *argv[])
   }
   else if (arg1 == "start")
   {
+    std::string streamsLocation = "list.json"; 
+    bool streamsActive = true;
+    std::thread t1(runningStreams, &streamsActive, &streamsLocation);
+    t1.detach();
     bool isRunning{true};
     do
     {
@@ -38,7 +45,7 @@ int main(int argc, char *argv[])
         remove "index"                remove stream by index
         list                          get list of all stream and their indexes
         stop                          stop the running program
-        
+
       )";
       std::cin >> option;
 

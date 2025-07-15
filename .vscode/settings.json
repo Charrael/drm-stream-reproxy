@@ -54,6 +54,10 @@
     "typeinfo": "cpp",
     "variant": "cpp",
     "queue": "cpp",
-    "ranges": "cpp"
+    "ranges": "cpp",
+    "ratio": "cpp",
+    "semaphore": "cpp",
+    "stop_token": "cpp",
+    "thread": "cpp"
   }
 }
