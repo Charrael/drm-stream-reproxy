@@ -1,0 +1,2480 @@
+{
+  "channelCount": 100,
+  "channels": {
+    "1": {
+      "url": "http://stream1.example.com",
+      "active": false,
+      "channelName": "Channel 1",
+      "group": "Sports",
+      "tvg-ID": "channel1.tvg",
+      "tvg-logo": "http://logo.example.com/1.png",
+      "videoDecryptionKey": "vdkey1",
+      "audioDecryptionKey": "adkey1",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "2": {
+      "url": "http://stream2.example.com",
+      "active": true,
+      "channelName": "Channel 2",
+      "group": "Entertainment",
+      "tvg-ID": "channel2.tvg",
+      "tvg-logo": "http://logo.example.com/2.png",
+      "videoDecryptionKey": "vdkey2",
+      "audioDecryptionKey": "adkey2",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "3": {
+      "url": "http://stream3.example.com",
+      "active": false,
+      "channelName": "Channel 3",
+      "group": "Documentary",
+      "tvg-ID": "channel3.tvg",
+      "tvg-logo": "http://logo.example.com/3.png",
+      "videoDecryptionKey": "vdkey3",
+      "audioDecryptionKey": "adkey3",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "4": {
+      "url": "http://stream4.example.com",
+      "active": true,
+      "channelName": "Channel 4",
+      "group": "News",
+      "tvg-ID": "channel4.tvg",
+      "tvg-logo": "http://logo.example.com/4.png",
+      "videoDecryptionKey": "vdkey4",
+      "audioDecryptionKey": "adkey4",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "5": {
+      "url": "http://stream5.example.com",
+      "active": false,
+      "channelName": "Channel 5",
+      "group": "Sports",
+      "tvg-ID": "channel5.tvg",
+      "tvg-logo": "http://logo.example.com/5.png",
+      "videoDecryptionKey": "vdkey5",
+      "audioDecryptionKey": "adkey5",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "6": {
+      "url": "http://stream6.example.com",
+      "active": true,
+      "channelName": "Channel 6",
+      "group": "Entertainment",
+      "tvg-ID": "channel6.tvg",
+      "tvg-logo": "http://logo.example.com/6.png",
+      "videoDecryptionKey": "vdkey6",
+      "audioDecryptionKey": "adkey6",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "7": {
+      "url": "http://stream7.example.com",
+      "active": false,
+      "channelName": "Channel 7",
+      "group": "Documentary",
+      "tvg-ID": "channel7.tvg",
+      "tvg-logo": "http://logo.example.com/7.png",
+      "videoDecryptionKey": "vdkey7",
+      "audioDecryptionKey": "adkey7",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "8": {
+      "url": "http://stream8.example.com",
+      "active": true,
+      "channelName": "Channel 8",
+      "group": "News",
+      "tvg-ID": "channel8.tvg",
+      "tvg-logo": "http://logo.example.com/8.png",
+      "videoDecryptionKey": "vdkey8",
+      "audioDecryptionKey": "adkey8",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "9": {
+      "url": "http://stream9.example.com",
+      "active": false,
+      "channelName": "Channel 9",
+      "group": "Sports",
+      "tvg-ID": "channel9.tvg",
+      "tvg-logo": "http://logo.example.com/9.png",
+      "videoDecryptionKey": "vdkey9",
+      "audioDecryptionKey": "adkey9",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "10": {
+      "url": "http://stream10.example.com",
+      "active": true,
+      "channelName": "Channel 10",
+      "group": "Entertainment",
+      "tvg-ID": "channel10.tvg",
+      "tvg-logo": "http://logo.example.com/10.png",
+      "videoDecryptionKey": "vdkey10",
+      "audioDecryptionKey": "adkey10",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "11": {
+      "url": "http://stream11.example.com",
+      "active": false,
+      "channelName": "Channel 11",
+      "group": "Documentary",
+      "tvg-ID": "channel11.tvg",
+      "tvg-logo": "http://logo.example.com/11.png",
+      "videoDecryptionKey": "vdkey11",
+      "audioDecryptionKey": "adkey11",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "12": {
+      "url": "http://stream12.example.com",
+      "active": true,
+      "channelName": "Channel 12",
+      "group": "News",
+      "tvg-ID": "channel12.tvg",
+      "tvg-logo": "http://logo.example.com/12.png",
+      "videoDecryptionKey": "vdkey12",
+      "audioDecryptionKey": "adkey12",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "13": {
+      "url": "http://stream13.example.com",
+      "active": false,
+      "channelName": "Channel 13",
+      "group": "Sports",
+      "tvg-ID": "channel13.tvg",
+      "tvg-logo": "http://logo.example.com/13.png",
+      "videoDecryptionKey": "vdkey13",
+      "audioDecryptionKey": "adkey13",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "14": {
+      "url": "http://stream14.example.com",
+      "active": true,
+      "channelName": "Channel 14",
+      "group": "Entertainment",
+      "tvg-ID": "channel14.tvg",
+      "tvg-logo": "http://logo.example.com/14.png",
+      "videoDecryptionKey": "vdkey14",
+      "audioDecryptionKey": "adkey14",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "15": {
+      "url": "http://stream15.example.com",
+      "active": false,
+      "channelName": "Channel 15",
+      "group": "Documentary",
+      "tvg-ID": "channel15.tvg",
+      "tvg-logo": "http://logo.example.com/15.png",
+      "videoDecryptionKey": "vdkey15",
+      "audioDecryptionKey": "adkey15",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "16": {
+      "url": "http://stream16.example.com",
+      "active": true,
+      "channelName": "Channel 16",
+      "group": "News",
+      "tvg-ID": "channel16.tvg",
+      "tvg-logo": "http://logo.example.com/16.png",
+      "videoDecryptionKey": "vdkey16",
+      "audioDecryptionKey": "adkey16",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "17": {
+      "url": "http://stream17.example.com",
+      "active": false,
+      "channelName": "Channel 17",
+      "group": "Sports",
+      "tvg-ID": "channel17.tvg",
+      "tvg-logo": "http://logo.example.com/17.png",
+      "videoDecryptionKey": "vdkey17",
+      "audioDecryptionKey": "adkey17",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "18": {
+      "url": "http://stream18.example.com",
+      "active": true,
+      "channelName": "Channel 18",
+      "group": "Entertainment",
+      "tvg-ID": "channel18.tvg",
+      "tvg-logo": "http://logo.example.com/18.png",
+      "videoDecryptionKey": "vdkey18",
+      "audioDecryptionKey": "adkey18",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "19": {
+      "url": "http://stream19.example.com",
+      "active": false,
+      "channelName": "Channel 19",
+      "group": "Documentary",
+      "tvg-ID": "channel19.tvg",
+      "tvg-logo": "http://logo.example.com/19.png",
+      "videoDecryptionKey": "vdkey19",
+      "audioDecryptionKey": "adkey19",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "20": {
+      "url": "http://stream20.example.com",
+      "active": true,
+      "channelName": "Channel 20",
+      "group": "News",
+      "tvg-ID": "channel20.tvg",
+      "tvg-logo": "http://logo.example.com/20.png",
+      "videoDecryptionKey": "vdkey20",
+      "audioDecryptionKey": "adkey20",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "21": {
+      "url": "http://stream21.example.com",
+      "active": false,
+      "channelName": "Channel 21",
+      "group": "Sports",
+      "tvg-ID": "channel21.tvg",
+      "tvg-logo": "http://logo.example.com/21.png",
+      "videoDecryptionKey": "vdkey21",
+      "audioDecryptionKey": "adkey21",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "22": {
+      "url": "http://stream22.example.com",
+      "active": true,
+      "channelName": "Channel 22",
+      "group": "Entertainment",
+      "tvg-ID": "channel22.tvg",
+      "tvg-logo": "http://logo.example.com/22.png",
+      "videoDecryptionKey": "vdkey22",
+      "audioDecryptionKey": "adkey22",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "23": {
+      "url": "http://stream23.example.com",
+      "active": false,
+      "channelName": "Channel 23",
+      "group": "Documentary",
+      "tvg-ID": "channel23.tvg",
+      "tvg-logo": "http://logo.example.com/23.png",
+      "videoDecryptionKey": "vdkey23",
+      "audioDecryptionKey": "adkey23",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "24": {
+      "url": "http://stream24.example.com",
+      "active": true,
+      "channelName": "Channel 24",
+      "group": "News",
+      "tvg-ID": "channel24.tvg",
+      "tvg-logo": "http://logo.example.com/24.png",
+      "videoDecryptionKey": "vdkey24",
+      "audioDecryptionKey": "adkey24",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "25": {
+      "url": "http://stream25.example.com",
+      "active": false,
+      "channelName": "Channel 25",
+      "group": "Sports",
+      "tvg-ID": "channel25.tvg",
+      "tvg-logo": "http://logo.example.com/25.png",
+      "videoDecryptionKey": "vdkey25",
+      "audioDecryptionKey": "adkey25",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "26": {
+      "url": "http://stream26.example.com",
+      "active": true,
+      "channelName": "Channel 26",
+      "group": "Entertainment",
+      "tvg-ID": "channel26.tvg",
+      "tvg-logo": "http://logo.example.com/26.png",
+      "videoDecryptionKey": "vdkey26",
+      "audioDecryptionKey": "adkey26",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "27": {
+      "url": "http://stream27.example.com",
+      "active": false,
+      "channelName": "Channel 27",
+      "group": "Documentary",
+      "tvg-ID": "channel27.tvg",
+      "tvg-logo": "http://logo.example.com/27.png",
+      "videoDecryptionKey": "vdkey27",
+      "audioDecryptionKey": "adkey27",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "28": {
+      "url": "http://stream28.example.com",
+      "active": true,
+      "channelName": "Channel 28",
+      "group": "News",
+      "tvg-ID": "channel28.tvg",
+      "tvg-logo": "http://logo.example.com/28.png",
+      "videoDecryptionKey": "vdkey28",
+      "audioDecryptionKey": "adkey28",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "29": {
+      "url": "http://stream29.example.com",
+      "active": false,
+      "channelName": "Channel 29",
+      "group": "Sports",
+      "tvg-ID": "channel29.tvg",
+      "tvg-logo": "http://logo.example.com/29.png",
+      "videoDecryptionKey": "vdkey29",
+      "audioDecryptionKey": "adkey29",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "30": {
+      "url": "http://stream30.example.com",
+      "active": true,
+      "channelName": "Channel 30",
+      "group": "Entertainment",
+      "tvg-ID": "channel30.tvg",
+      "tvg-logo": "http://logo.example.com/30.png",
+      "videoDecryptionKey": "vdkey30",
+      "audioDecryptionKey": "adkey30",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "31": {
+      "url": "http://stream31.example.com",
+      "active": false,
+      "channelName": "Channel 31",
+      "group": "Documentary",
+      "tvg-ID": "channel31.tvg",
+      "tvg-logo": "http://logo.example.com/31.png",
+      "videoDecryptionKey": "vdkey31",
+      "audioDecryptionKey": "adkey31",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "32": {
+      "url": "http://stream32.example.com",
+      "active": true,
+      "channelName": "Channel 32",
+      "group": "News",
+      "tvg-ID": "channel32.tvg",
+      "tvg-logo": "http://logo.example.com/32.png",
+      "videoDecryptionKey": "vdkey32",
+      "audioDecryptionKey": "adkey32",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "33": {
+      "url": "http://stream33.example.com",
+      "active": false,
+      "channelName": "Channel 33",
+      "group": "Sports",
+      "tvg-ID": "channel33.tvg",
+      "tvg-logo": "http://logo.example.com/33.png",
+      "videoDecryptionKey": "vdkey33",
+      "audioDecryptionKey": "adkey33",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "34": {
+      "url": "http://stream34.example.com",
+      "active": true,
+      "channelName": "Channel 34",
+      "group": "Entertainment",
+      "tvg-ID": "channel34.tvg",
+      "tvg-logo": "http://logo.example.com/34.png",
+      "videoDecryptionKey": "vdkey34",
+      "audioDecryptionKey": "adkey34",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "35": {
+      "url": "http://stream35.example.com",
+      "active": false,
+      "channelName": "Channel 35",
+      "group": "Documentary",
+      "tvg-ID": "channel35.tvg",
+      "tvg-logo": "http://logo.example.com/35.png",
+      "videoDecryptionKey": "vdkey35",
+      "audioDecryptionKey": "adkey35",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "36": {
+      "url": "http://stream36.example.com",
+      "active": true,
+      "channelName": "Channel 36",
+      "group": "News",
+      "tvg-ID": "channel36.tvg",
+      "tvg-logo": "http://logo.example.com/36.png",
+      "videoDecryptionKey": "vdkey36",
+      "audioDecryptionKey": "adkey36",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "37": {
+      "url": "http://stream37.example.com",
+      "active": false,
+      "channelName": "Channel 37",
+      "group": "Sports",
+      "tvg-ID": "channel37.tvg",
+      "tvg-logo": "http://logo.example.com/37.png",
+      "videoDecryptionKey": "vdkey37",
+      "audioDecryptionKey": "adkey37",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "38": {
+      "url": "http://stream38.example.com",
+      "active": true,
+      "channelName": "Channel 38",
+      "group": "Entertainment",
+      "tvg-ID": "channel38.tvg",
+      "tvg-logo": "http://logo.example.com/38.png",
+      "videoDecryptionKey": "vdkey38",
+      "audioDecryptionKey": "adkey38",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "39": {
+      "url": "http://stream39.example.com",
+      "active": false,
+      "channelName": "Channel 39",
+      "group": "Documentary",
+      "tvg-ID": "channel39.tvg",
+      "tvg-logo": "http://logo.example.com/39.png",
+      "videoDecryptionKey": "vdkey39",
+      "audioDecryptionKey": "adkey39",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "40": {
+      "url": "http://stream40.example.com",
+      "active": true,
+      "channelName": "Channel 40",
+      "group": "News",
+      "tvg-ID": "channel40.tvg",
+      "tvg-logo": "http://logo.example.com/40.png",
+      "videoDecryptionKey": "vdkey40",
+      "audioDecryptionKey": "adkey40",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "41": {
+      "url": "http://stream41.example.com",
+      "active": false,
+      "channelName": "Channel 41",
+      "group": "Sports",
+      "tvg-ID": "channel41.tvg",
+      "tvg-logo": "http://logo.example.com/41.png",
+      "videoDecryptionKey": "vdkey41",
+      "audioDecryptionKey": "adkey41",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "42": {
+      "url": "http://stream42.example.com",
+      "active": true,
+      "channelName": "Channel 42",
+      "group": "Entertainment",
+      "tvg-ID": "channel42.tvg",
+      "tvg-logo": "http://logo.example.com/42.png",
+      "videoDecryptionKey": "vdkey42",
+      "audioDecryptionKey": "adkey42",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "43": {
+      "url": "http://stream43.example.com",
+      "active": false,
+      "channelName": "Channel 43",
+      "group": "Documentary",
+      "tvg-ID": "channel43.tvg",
+      "tvg-logo": "http://logo.example.com/43.png",
+      "videoDecryptionKey": "vdkey43",
+      "audioDecryptionKey": "adkey43",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "44": {
+      "url": "http://stream44.example.com",
+      "active": true,
+      "channelName": "Channel 44",
+      "group": "News",
+      "tvg-ID": "channel44.tvg",
+      "tvg-logo": "http://logo.example.com/44.png",
+      "videoDecryptionKey": "vdkey44",
+      "audioDecryptionKey": "adkey44",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "45": {
+      "url": "http://stream45.example.com",
+      "active": false,
+      "channelName": "Channel 45",
+      "group": "Sports",
+      "tvg-ID": "channel45.tvg",
+      "tvg-logo": "http://logo.example.com/45.png",
+      "videoDecryptionKey": "vdkey45",
+      "audioDecryptionKey": "adkey45",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "46": {
+      "url": "http://stream46.example.com",
+      "active": true,
+      "channelName": "Channel 46",
+      "group": "Entertainment",
+      "tvg-ID": "channel46.tvg",
+      "tvg-logo": "http://logo.example.com/46.png",
+      "videoDecryptionKey": "vdkey46",
+      "audioDecryptionKey": "adkey46",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "47": {
+      "url": "http://stream47.example.com",
+      "active": false,
+      "channelName": "Channel 47",
+      "group": "Documentary",
+      "tvg-ID": "channel47.tvg",
+      "tvg-logo": "http://logo.example.com/47.png",
+      "videoDecryptionKey": "vdkey47",
+      "audioDecryptionKey": "adkey47",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "48": {
+      "url": "http://stream48.example.com",
+      "active": true,
+      "channelName": "Channel 48",
+      "group": "News",
+      "tvg-ID": "channel48.tvg",
+      "tvg-logo": "http://logo.example.com/48.png",
+      "videoDecryptionKey": "vdkey48",
+      "audioDecryptionKey": "adkey48",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "49": {
+      "url": "http://stream49.example.com",
+      "active": false,
+      "channelName": "Channel 49",
+      "group": "Sports",
+      "tvg-ID": "channel49.tvg",
+      "tvg-logo": "http://logo.example.com/49.png",
+      "videoDecryptionKey": "vdkey49",
+      "audioDecryptionKey": "adkey49",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "50": {
+      "url": "http://stream50.example.com",
+      "active": true,
+      "channelName": "Channel 50",
+      "group": "Entertainment",
+      "tvg-ID": "channel50.tvg",
+      "tvg-logo": "http://logo.example.com/50.png",
+      "videoDecryptionKey": "vdkey50",
+      "audioDecryptionKey": "adkey50",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "51": {
+      "url": "http://stream51.example.com",
+      "active": false,
+      "channelName": "Channel 51",
+      "group": "Documentary",
+      "tvg-ID": "channel51.tvg",
+      "tvg-logo": "http://logo.example.com/51.png",
+      "videoDecryptionKey": "vdkey51",
+      "audioDecryptionKey": "adkey51",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "52": {
+      "url": "http://stream52.example.com",
+      "active": true,
+      "channelName": "Channel 52",
+      "group": "News",
+      "tvg-ID": "channel52.tvg",
+      "tvg-logo": "http://logo.example.com/52.png",
+      "videoDecryptionKey": "vdkey52",
+      "audioDecryptionKey": "adkey52",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "53": {
+      "url": "http://stream53.example.com",
+      "active": false,
+      "channelName": "Channel 53",
+      "group": "Sports",
+      "tvg-ID": "channel53.tvg",
+      "tvg-logo": "http://logo.example.com/53.png",
+      "videoDecryptionKey": "vdkey53",
+      "audioDecryptionKey": "adkey53",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "54": {
+      "url": "http://stream54.example.com",
+      "active": true,
+      "channelName": "Channel 54",
+      "group": "Entertainment",
+      "tvg-ID": "channel54.tvg",
+      "tvg-logo": "http://logo.example.com/54.png",
+      "videoDecryptionKey": "vdkey54",
+      "audioDecryptionKey": "adkey54",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "55": {
+      "url": "http://stream55.example.com",
+      "active": false,
+      "channelName": "Channel 55",
+      "group": "Documentary",
+      "tvg-ID": "channel55.tvg",
+      "tvg-logo": "http://logo.example.com/55.png",
+      "videoDecryptionKey": "vdkey55",
+      "audioDecryptionKey": "adkey55",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "56": {
+      "url": "http://stream56.example.com",
+      "active": true,
+      "channelName": "Channel 56",
+      "group": "News",
+      "tvg-ID": "channel56.tvg",
+      "tvg-logo": "http://logo.example.com/56.png",
+      "videoDecryptionKey": "vdkey56",
+      "audioDecryptionKey": "adkey56",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "57": {
+      "url": "http://stream57.example.com",
+      "active": false,
+      "channelName": "Channel 57",
+      "group": "Sports",
+      "tvg-ID": "channel57.tvg",
+      "tvg-logo": "http://logo.example.com/57.png",
+      "videoDecryptionKey": "vdkey57",
+      "audioDecryptionKey": "adkey57",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "58": {
+      "url": "http://stream58.example.com",
+      "active": true,
+      "channelName": "Channel 58",
+      "group": "Entertainment",
+      "tvg-ID": "channel58.tvg",
+      "tvg-logo": "http://logo.example.com/58.png",
+      "videoDecryptionKey": "vdkey58",
+      "audioDecryptionKey": "adkey58",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "59": {
+      "url": "http://stream59.example.com",
+      "active": false,
+      "channelName": "Channel 59",
+      "group": "Documentary",
+      "tvg-ID": "channel59.tvg",
+      "tvg-logo": "http://logo.example.com/59.png",
+      "videoDecryptionKey": "vdkey59",
+      "audioDecryptionKey": "adkey59",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "60": {
+      "url": "http://stream60.example.com",
+      "active": true,
+      "channelName": "Channel 60",
+      "group": "News",
+      "tvg-ID": "channel60.tvg",
+      "tvg-logo": "http://logo.example.com/60.png",
+      "videoDecryptionKey": "vdkey60",
+      "audioDecryptionKey": "adkey60",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "61": {
+      "url": "http://stream61.example.com",
+      "active": false,
+      "channelName": "Channel 61",
+      "group": "Sports",
+      "tvg-ID": "channel61.tvg",
+      "tvg-logo": "http://logo.example.com/61.png",
+      "videoDecryptionKey": "vdkey61",
+      "audioDecryptionKey": "adkey61",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "62": {
+      "url": "http://stream62.example.com",
+      "active": true,
+      "channelName": "Channel 62",
+      "group": "Entertainment",
+      "tvg-ID": "channel62.tvg",
+      "tvg-logo": "http://logo.example.com/62.png",
+      "videoDecryptionKey": "vdkey62",
+      "audioDecryptionKey": "adkey62",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "63": {
+      "url": "http://stream63.example.com",
+      "active": false,
+      "channelName": "Channel 63",
+      "group": "Documentary",
+      "tvg-ID": "channel63.tvg",
+      "tvg-logo": "http://logo.example.com/63.png",
+      "videoDecryptionKey": "vdkey63",
+      "audioDecryptionKey": "adkey63",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "64": {
+      "url": "http://stream64.example.com",
+      "active": true,
+      "channelName": "Channel 64",
+      "group": "News",
+      "tvg-ID": "channel64.tvg",
+      "tvg-logo": "http://logo.example.com/64.png",
+      "videoDecryptionKey": "vdkey64",
+      "audioDecryptionKey": "adkey64",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "65": {
+      "url": "http://stream65.example.com",
+      "active": false,
+      "channelName": "Channel 65",
+      "group": "Sports",
+      "tvg-ID": "channel65.tvg",
+      "tvg-logo": "http://logo.example.com/65.png",
+      "videoDecryptionKey": "vdkey65",
+      "audioDecryptionKey": "adkey65",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "66": {
+      "url": "http://stream66.example.com",
+      "active": true,
+      "channelName": "Channel 66",
+      "group": "Entertainment",
+      "tvg-ID": "channel66.tvg",
+      "tvg-logo": "http://logo.example.com/66.png",
+      "videoDecryptionKey": "vdkey66",
+      "audioDecryptionKey": "adkey66",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "67": {
+      "url": "http://stream67.example.com",
+      "active": false,
+      "channelName": "Channel 67",
+      "group": "Documentary",
+      "tvg-ID": "channel67.tvg",
+      "tvg-logo": "http://logo.example.com/67.png",
+      "videoDecryptionKey": "vdkey67",
+      "audioDecryptionKey": "adkey67",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "68": {
+      "url": "http://stream68.example.com",
+      "active": true,
+      "channelName": "Channel 68",
+      "group": "News",
+      "tvg-ID": "channel68.tvg",
+      "tvg-logo": "http://logo.example.com/68.png",
+      "videoDecryptionKey": "vdkey68",
+      "audioDecryptionKey": "adkey68",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "69": {
+      "url": "http://stream69.example.com",
+      "active": false,
+      "channelName": "Channel 69",
+      "group": "Sports",
+      "tvg-ID": "channel69.tvg",
+      "tvg-logo": "http://logo.example.com/69.png",
+      "videoDecryptionKey": "vdkey69",
+      "audioDecryptionKey": "adkey69",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "70": {
+      "url": "http://stream70.example.com",
+      "active": true,
+      "channelName": "Channel 70",
+      "group": "Entertainment",
+      "tvg-ID": "channel70.tvg",
+      "tvg-logo": "http://logo.example.com/70.png",
+      "videoDecryptionKey": "vdkey70",
+      "audioDecryptionKey": "adkey70",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "71": {
+      "url": "http://stream71.example.com",
+      "active": false,
+      "channelName": "Channel 71",
+      "group": "Documentary",
+      "tvg-ID": "channel71.tvg",
+      "tvg-logo": "http://logo.example.com/71.png",
+      "videoDecryptionKey": "vdkey71",
+      "audioDecryptionKey": "adkey71",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "72": {
+      "url": "http://stream72.example.com",
+      "active": true,
+      "channelName": "Channel 72",
+      "group": "News",
+      "tvg-ID": "channel72.tvg",
+      "tvg-logo": "http://logo.example.com/72.png",
+      "videoDecryptionKey": "vdkey72",
+      "audioDecryptionKey": "adkey72",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "73": {
+      "url": "http://stream73.example.com",
+      "active": false,
+      "channelName": "Channel 73",
+      "group": "Sports",
+      "tvg-ID": "channel73.tvg",
+      "tvg-logo": "http://logo.example.com/73.png",
+      "videoDecryptionKey": "vdkey73",
+      "audioDecryptionKey": "adkey73",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "74": {
+      "url": "http://stream74.example.com",
+      "active": true,
+      "channelName": "Channel 74",
+      "group": "Entertainment",
+      "tvg-ID": "channel74.tvg",
+      "tvg-logo": "http://logo.example.com/74.png",
+      "videoDecryptionKey": "vdkey74",
+      "audioDecryptionKey": "adkey74",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "75": {
+      "url": "http://stream75.example.com",
+      "active": false,
+      "channelName": "Channel 75",
+      "group": "Documentary",
+      "tvg-ID": "channel75.tvg",
+      "tvg-logo": "http://logo.example.com/75.png",
+      "videoDecryptionKey": "vdkey75",
+      "audioDecryptionKey": "adkey75",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "76": {
+      "url": "http://stream76.example.com",
+      "active": true,
+      "channelName": "Channel 76",
+      "group": "News",
+      "tvg-ID": "channel76.tvg",
+      "tvg-logo": "http://logo.example.com/76.png",
+      "videoDecryptionKey": "vdkey76",
+      "audioDecryptionKey": "adkey76",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "77": {
+      "url": "http://stream77.example.com",
+      "active": false,
+      "channelName": "Channel 77",
+      "group": "Sports",
+      "tvg-ID": "channel77.tvg",
+      "tvg-logo": "http://logo.example.com/77.png",
+      "videoDecryptionKey": "vdkey77",
+      "audioDecryptionKey": "adkey77",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "78": {
+      "url": "http://stream78.example.com",
+      "active": true,
+      "channelName": "Channel 78",
+      "group": "Entertainment",
+      "tvg-ID": "channel78.tvg",
+      "tvg-logo": "http://logo.example.com/78.png",
+      "videoDecryptionKey": "vdkey78",
+      "audioDecryptionKey": "adkey78",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "79": {
+      "url": "http://stream79.example.com",
+      "active": false,
+      "channelName": "Channel 79",
+      "group": "Documentary",
+      "tvg-ID": "channel79.tvg",
+      "tvg-logo": "http://logo.example.com/79.png",
+      "videoDecryptionKey": "vdkey79",
+      "audioDecryptionKey": "adkey79",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "80": {
+      "url": "http://stream80.example.com",
+      "active": true,
+      "channelName": "Channel 80",
+      "group": "News",
+      "tvg-ID": "channel80.tvg",
+      "tvg-logo": "http://logo.example.com/80.png",
+      "videoDecryptionKey": "vdkey80",
+      "audioDecryptionKey": "adkey80",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "81": {
+      "url": "http://stream81.example.com",
+      "active": false,
+      "channelName": "Channel 81",
+      "group": "Sports",
+      "tvg-ID": "channel81.tvg",
+      "tvg-logo": "http://logo.example.com/81.png",
+      "videoDecryptionKey": "vdkey81",
+      "audioDecryptionKey": "adkey81",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "82": {
+      "url": "http://stream82.example.com",
+      "active": true,
+      "channelName": "Channel 82",
+      "group": "Entertainment",
+      "tvg-ID": "channel82.tvg",
+      "tvg-logo": "http://logo.example.com/82.png",
+      "videoDecryptionKey": "vdkey82",
+      "audioDecryptionKey": "adkey82",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "83": {
+      "url": "http://stream83.example.com",
+      "active": false,
+      "channelName": "Channel 83",
+      "group": "Documentary",
+      "tvg-ID": "channel83.tvg",
+      "tvg-logo": "http://logo.example.com/83.png",
+      "videoDecryptionKey": "vdkey83",
+      "audioDecryptionKey": "adkey83",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "84": {
+      "url": "http://stream84.example.com",
+      "active": true,
+      "channelName": "Channel 84",
+      "group": "News",
+      "tvg-ID": "channel84.tvg",
+      "tvg-logo": "http://logo.example.com/84.png",
+      "videoDecryptionKey": "vdkey84",
+      "audioDecryptionKey": "adkey84",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "85": {
+      "url": "http://stream85.example.com",
+      "active": false,
+      "channelName": "Channel 85",
+      "group": "Sports",
+      "tvg-ID": "channel85.tvg",
+      "tvg-logo": "http://logo.example.com/85.png",
+      "videoDecryptionKey": "vdkey85",
+      "audioDecryptionKey": "adkey85",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "86": {
+      "url": "http://stream86.example.com",
+      "active": true,
+      "channelName": "Channel 86",
+      "group": "Entertainment",
+      "tvg-ID": "channel86.tvg",
+      "tvg-logo": "http://logo.example.com/86.png",
+      "videoDecryptionKey": "vdkey86",
+      "audioDecryptionKey": "adkey86",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "87": {
+      "url": "http://stream87.example.com",
+      "active": false,
+      "channelName": "Channel 87",
+      "group": "Documentary",
+      "tvg-ID": "channel87.tvg",
+      "tvg-logo": "http://logo.example.com/87.png",
+      "videoDecryptionKey": "vdkey87",
+      "audioDecryptionKey": "adkey87",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "88": {
+      "url": "http://stream88.example.com",
+      "active": true,
+      "channelName": "Channel 88",
+      "group": "News",
+      "tvg-ID": "channel88.tvg",
+      "tvg-logo": "http://logo.example.com/88.png",
+      "videoDecryptionKey": "vdkey88",
+      "audioDecryptionKey": "adkey88",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "89": {
+      "url": "http://stream89.example.com",
+      "active": false,
+      "channelName": "Channel 89",
+      "group": "Sports",
+      "tvg-ID": "channel89.tvg",
+      "tvg-logo": "http://logo.example.com/89.png",
+      "videoDecryptionKey": "vdkey89",
+      "audioDecryptionKey": "adkey89",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "90": {
+      "url": "http://stream90.example.com",
+      "active": true,
+      "channelName": "Channel 90",
+      "group": "Entertainment",
+      "tvg-ID": "channel90.tvg",
+      "tvg-logo": "http://logo.example.com/90.png",
+      "videoDecryptionKey": "vdkey90",
+      "audioDecryptionKey": "adkey90",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "91": {
+      "url": "http://stream91.example.com",
+      "active": false,
+      "channelName": "Channel 91",
+      "group": "Documentary",
+      "tvg-ID": "channel91.tvg",
+      "tvg-logo": "http://logo.example.com/91.png",
+      "videoDecryptionKey": "vdkey91",
+      "audioDecryptionKey": "adkey91",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "92": {
+      "url": "http://stream92.example.com",
+      "active": true,
+      "channelName": "Channel 92",
+      "group": "News",
+      "tvg-ID": "channel92.tvg",
+      "tvg-logo": "http://logo.example.com/92.png",
+      "videoDecryptionKey": "vdkey92",
+      "audioDecryptionKey": "adkey92",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "93": {
+      "url": "http://stream93.example.com",
+      "active": false,
+      "channelName": "Channel 93",
+      "group": "Sports",
+      "tvg-ID": "channel93.tvg",
+      "tvg-logo": "http://logo.example.com/93.png",
+      "videoDecryptionKey": "vdkey93",
+      "audioDecryptionKey": "adkey93",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "94": {
+      "url": "http://stream94.example.com",
+      "active": true,
+      "channelName": "Channel 94",
+      "group": "Entertainment",
+      "tvg-ID": "channel94.tvg",
+      "tvg-logo": "http://logo.example.com/94.png",
+      "videoDecryptionKey": "vdkey94",
+      "audioDecryptionKey": "adkey94",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "95": {
+      "url": "http://stream95.example.com",
+      "active": false,
+      "channelName": "Channel 95",
+      "group": "Documentary",
+      "tvg-ID": "channel95.tvg",
+      "tvg-logo": "http://logo.example.com/95.png",
+      "videoDecryptionKey": "vdkey95",
+      "audioDecryptionKey": "adkey95",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "96": {
+      "url": "http://stream96.example.com",
+      "active": true,
+      "channelName": "Channel 96",
+      "group": "News",
+      "tvg-ID": "channel96.tvg",
+      "tvg-logo": "http://logo.example.com/96.png",
+      "videoDecryptionKey": "vdkey96",
+      "audioDecryptionKey": "adkey96",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "97": {
+      "url": "http://stream97.example.com",
+      "active": false,
+      "channelName": "Channel 97",
+      "group": "Sports",
+      "tvg-ID": "channel97.tvg",
+      "tvg-logo": "http://logo.example.com/97.png",
+      "videoDecryptionKey": "vdkey97",
+      "audioDecryptionKey": "adkey97",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "French",
+        "Spanish"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "98": {
+      "url": "http://stream98.example.com",
+      "active": true,
+      "channelName": "Channel 98",
+      "group": "Entertainment",
+      "tvg-ID": "channel98.tvg",
+      "tvg-logo": "http://logo.example.com/98.png",
+      "videoDecryptionKey": "vdkey98",
+      "audioDecryptionKey": "adkey98",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "Spanish",
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "99": {
+      "url": "http://stream99.example.com",
+      "active": false,
+      "channelName": "Channel 99",
+      "group": "Documentary",
+      "tvg-ID": "channel99.tvg",
+      "tvg-logo": "http://logo.example.com/99.png",
+      "videoDecryptionKey": "vdkey99",
+      "audioDecryptionKey": "adkey99",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "German"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    },
+    "100": {
+      "url": "http://stream100.example.com",
+      "active": true,
+      "channelName": "Channel 100",
+      "group": "News",
+      "tvg-ID": "channel100.tvg",
+      "tvg-logo": "http://logo.example.com/100.png",
+      "videoDecryptionKey": "vdkey100",
+      "audioDecryptionKey": "adkey100",
+      "videoQualities": [
+        "2160p",
+        "1080p",
+        "720p"
+      ],
+      "audioTracks": [
+        "English",
+        "French"
+      ],
+      "selectedVariants": {
+        "video": "1080p",
+        "audio": [
+          "English"
+        ]
+      }
+    }
+  }
+}

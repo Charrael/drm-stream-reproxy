@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
   }
   else if (arg1 == "start")
   {
-    std::string streamsLocation = "list.json";
+    std::string streamsLocation = "src/examples/channel_data.json";
     std::thread t1(startStreams, &streamsLocation);
     t1.detach();
     bool isRunning{true};
