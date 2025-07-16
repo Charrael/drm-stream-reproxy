@@ -1,0 +1,20 @@
+{
+  "channels": {
+    "1": {
+      "url": "",
+      "active": true,
+      "channelName": "",
+      "group": "",
+      "tvg-ID": "",
+      "tvg-logo": "",
+      "videoDecryptionKey": "",
+      "audioDecryptionKey": "",
+      "videoQualities": [],
+      "audioTracks": [],
+      "selectedVariants": {
+        "video": "",
+        "audio": []
+      }
+    }
+  }
+}
