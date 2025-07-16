@@ -1,14 +1,17 @@
 {
-  "configurations": [
-  {
-      "name": "Linux",
-          "defines": [],
-          "compilerPath": "/usr/bin/g++",
-          "cStandard": "c11",
-          "cppStandard": "c++11",
-          "intelliSenseMode": "${default}",
-          "configurationProvider": "ms-vscode.cmake-tools"
-  }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "Linux",
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "${default}",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "includePath": [
+                "~/.conan2/**"
+            ]
+        }
+    ],
+    "version": 4
 }

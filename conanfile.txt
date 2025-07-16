@@ -1,6 +1,7 @@
 [requires]
-pugixml/1.14
-libcurl/8.10.1
+pugixml/1.15
+libcurl/8.12.1
+nlohmann_json/3.12.0
 
 [generators]
 CMakeDeps
