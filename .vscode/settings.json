@@ -58,6 +58,16 @@
     "ratio": "cpp",
     "semaphore": "cpp",
     "stop_token": "cpp",
-    "thread": "cpp"
+    "thread": "cpp",
+    "fstream": "cpp",
+    "any": "cpp",
+    "codecvt": "cpp",
+    "condition_variable": "cpp",
+    "forward_list": "cpp",
+    "map": "cpp",
+    "iomanip": "cpp",
+    "mutex": "cpp",
+    "sstream": "cpp",
+    "valarray": "cpp"
   }
 }
