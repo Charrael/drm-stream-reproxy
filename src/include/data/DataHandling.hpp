@@ -30,12 +30,12 @@ struct streamData
 };
 
 struct channelConfig{
+  int channelCount;
   std::unordered_map<std::string, streamData> streams;
 };
 void loadJsonData(std::string *databaseLocation){
   std::ifstream database(*databaseLocation);
   json j_database = json::parse(database);
-
   
 
 }
