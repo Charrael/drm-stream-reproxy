@@ -35,6 +35,7 @@ struct streamData
 struct channelConfig
 {
   int channelCount;
+  int lastId;
   std::unordered_map<int, streamData> streams;
 };
 
@@ -49,6 +50,7 @@ void loadJsonData(std::string *databaseLocation, channelConfig *cfg)
   json j_database = json::parse(database);
 
   cfg->channelCount = j_database.value("channelCount", 0);
+  cfg->lastId = j_database.value("lastid", 0);
 
   int countedChannels{};
 
@@ -126,6 +128,7 @@ void writeJsonData(std::string *databaseLocation, channelConfig *cfg)
 
   json j_database = {
       {"channelCount", cfg->channelCount},
+      {"lastid", cfg->lastId},
       {"channels", json::object()}};
 
   for (auto &pair : cfg->streams)

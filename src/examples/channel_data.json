@@ -1,5 +1,6 @@
 {
   "channelCount": 100,
+  "lastid": 100,
   "channels": {
     "1": {
       "url": "http://stream1.example.com",

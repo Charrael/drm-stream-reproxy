@@ -31,8 +31,9 @@ int main(int argc, char *argv[])
   }
   else if (arg1 == "start")
   {
+    playlist defaultPlaylist;
     std::string streamsLocation = "src/examples/channel_data.json";
-    std::thread t1(startStreams, &streamsLocation);
+    std::thread t1(&playlist::startStreams, &defaultPlaylist);
     t1.detach();
     bool isRunning{true};
     do
@@ -40,7 +41,7 @@ int main(int argc, char *argv[])
       std::string option;
       std::cout << R"(
       Choose what you would like to do
-        add "dash url" "key"          add new stream
+        add "dash url" "channel name" "key"          add new stream
         remove "index"                remove stream by index
         list                          get list of all stream and their indexes
         stop                          stop the running program
